@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+   <div class="contenedor">
+    
+        <form action="" class="form">
+            <div class="form-header">
+                    <h1 class="form-title">F<span>ormulario</span> P<span>ara</span> I<span>dentificar</span> T<span>us</span> G<span>ustos</span> M<span>usicales</span></h1>
+            </div>
+            <label for="nombre" class="form-label">NOMBRE:</label>
+            <input type="text" id="nombre" class="form-input" placeholder="Escriba su Nombre">
+            
+            <label for="apellido" class="form-label">APELLIDO:</label>
+            <input type="text" id="APELLIDO" class="form-input" placeholder="Escriba su Apellido">
+
+            <label for="correo" class="form-label">CORREO ELECTRONICO:</label>
+            <input type="text" id="correo" class="form-input" placeholder="Escriba su Correo Electronico">
+
+            <label for="GeneroMusical" class="form-label">GENERO MUSICAL:</label>
+            <input type="text" id="GeneroMusical" class="form-input" placeholder="Escriba su Genero Musical">
+
+            <div class="radio">
+
+            <label1 for="sexo" class="form-label">SEXO</label1>
+            <input type= "radio" name="sexo">Hombre
+            <input type= "radio" name="sexo">Mujer
+            <br>
+            <br>
+
+            <label1 for="eresmusico" class="form-label">Eres musico o Cantante</label1>
+            <input type= "checkbox" name="eresmusico">Soy cantante
+            <input type= "checkbox" name="eresmusico">Soy Musico
+            <input type= "checkbox" name="eresmusico">Ninguna de las anterirores
+            <br>
+            <br>
+
+            <label for="pais">PAIS</label>
+              <select name="pais">
+                  <option value="colombia">Colombia</option>
+                  <option value="venezuela">Venezuela</option>
+                  <option value="ecuador">Ecuador</option>
+                  <option value="chile">chile</option>
+
+              </select>
+              </div>
+              
+
+              <br>
+              <br>
+            <label for="descripcion" class="form-label">TU DESCRIPCION:</label>
+            <textarea id="mensaje" class="form-textarea" placeholder="DESCRIBE LO QUE TE GUSTA DEL GENERO">
+            </textarea>
+                <input type="submit" class="btn-submit" value="Enviar Consulta">
+            
+            </input>
+         </form>
+
+
+   </div> 
+</body>
+</html>
