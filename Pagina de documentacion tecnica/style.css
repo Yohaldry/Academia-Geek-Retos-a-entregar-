@@ -1,0 +1,34 @@
+*{
+    background-image: url(https://media.istockphoto.com/vectors/abstract-red-background-with-binary-code-numbers-data-breach-malware-vector-id1192821931?b=1&k=6&m=1192821931&s=170667a&w=0&h=U_BpEIK09JLGi-oVJpQCVGj96lOGZmsiH2QRB2dMKTA=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 10px;
+    
+}
+
+body :before{
+
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+   
+}
+
+.contenido{
+    font-size: 35px;
+    color: rgb(253, 251, 251);
+    z-index: 2;
+    
+}
+
+#pagina .contenido .introduccion{
+
+    font-size: 15;
+    padding: 10%;
+  
+}
