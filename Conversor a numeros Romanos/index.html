@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>numeros</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link href = "https: //fonts.googleapis.com/css2? family = Rajdhani: wght @ 300 & display = swap "rel =" stylesheet ">
+</head>
+<link rel="stylesheet" href="style.css">
+<html>
+<body>
+
+	<div id="pagina">
+	<form>
+		<h1>Conversor de NUMEROS a Numeros ROMANOS</h1>
+		<p>
+			Ten en cuenta lo siguiente: debes escribir los numeros en orden, 
+			solo llena las casillas necesarias para tu numero y cada casilla debe estar en el rango
+			numerico del 1 al 9
+		</p>
+		<input type="text" name="a" size="3" class="cajaDeTexto" placeholder="num 1"/>
+            <input type="text" name="b" size="4" class="cajaDeTexto" placeholder="num 2"/>
+            <input type="text" name="c" size="4" class="cajaDeTexto" placeholder="num 3"/>
+            <input type="text" name="d" size="4" class="cajaDeTexto" placeholder="num 4"/>
+			<button type="button" id="boton" onclick="romano(a,b,c,d)">Mostrar resultado</button>
+
+			<div id="salida" class="salida">
+			</div>
+	</div>
+	</form>
+	<div id="salida" class="salida">
+	</div>
+</body>
+<script src="script.js"></script>
+</html>
